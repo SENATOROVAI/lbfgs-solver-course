@@ -1,6 +1,6 @@
 # https://stepik.org/a/272346
 
-Linear regression with the LBFGS (Limited-memory Broyden-Fletcher-Goldfarb-Shanno) solver method is a numerical optimization method used to find the minimum of an objective function. It is a gradient descent algorithm that uses an approximation of the Hessian matrix to minimize the function. 
+2 Linear regression with the LBFGS (Limited-memory Broyden-Fletcher-Goldfarb-Shanno) solver method is a numerical optimization method used to find the minimum of an objective function. It is a gradient descent algorithm that uses an approximation of the Hessian matrix to minimize the function. 
 
 Вот **реалистичный роадмап** по изучению алгоритма **L-BFGS-B** с нуля (2025–2026 годы). Предполагается, что у вас есть базовые знания математики вуза 1–2 курса и вы умеете программировать на Python.
 
