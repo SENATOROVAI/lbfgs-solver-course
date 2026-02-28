@@ -24,6 +24,7 @@ If you find a security vulnerability in this repository, please report it **priv
 ```
 
 https://t.me/RuslanSenatorov
+https://www.youtube.com/SENATOROV
 
 ````
 
@@ -103,6 +104,7 @@ For critical security abuse or threats, contact:
 ```
 
 https://t.me/RuslanSenatorov
+https://www.youtube.com/SENATOROV
 
 ```
 
