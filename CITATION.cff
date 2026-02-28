@@ -36,6 +36,7 @@ abstract: >
 
 preferred-citation:
   type: software
+  doi: "10.5281/zenodo.18818738"
   title: "L-BFGS Solver Course"
   authors:
     - family-names: "Senatorov"
