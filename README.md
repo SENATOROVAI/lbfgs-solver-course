@@ -1,5 +1,8 @@
 # https://stepik.org/a/272346
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+
 # Limited-Memory BFGS (L-BFGS) — A Research-Oriented Course
 
 > A mathematically rigorous course on the **Limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS)** algorithm, covering theoretical foundations, convergence properties, numerical stability, and large-scale implementations.
