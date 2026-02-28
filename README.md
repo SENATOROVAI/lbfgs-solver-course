@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Docs](https://img.shields.io/badge/docs-theory-lightgrey.svg)]
+[![Docs](https://img.shields.io/badge/docs-theory-lightgrey.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 Research-oriented course and implementation of the **L-BFGS / L-BFGS-B quasi-Newton optimization algorithm**.
