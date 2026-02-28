@@ -1,9 +1,40 @@
 # https://stepik.org/a/272346
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+# Limited-Memory BFGS (L-BFGS) solver — A Research-Oriented Course
 
-# Limited-Memory BFGS (L-BFGS) — A Research-Oriented Course
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Docs](https://img.shields.io/badge/docs-theory-lightgrey.svg)]
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+Research-oriented course and implementation of the **L-BFGS / L-BFGS-B quasi-Newton optimization algorithm**.
+
+The project combines:
+
+- Mathematical derivation from first principles
+- Convergence theory and Wolfe line search analysis
+- Two-loop recursion implementation
+- Production-style Python solver
+- Large-scale numerical experiments
+
+Designed for researchers, ML engineers, and students studying second-order optimization methods.
+
+---
+
+## Project Status
+
+**Status:** Active development.
+
+Core solver implementation and theoretical documentation are stable.
+
+Future improvements include:
+
+- Extended benchmarking framework
+- Additional test coverage
+- Performance profiling
+- Visualization of convergence dynamics
+
+Contributions are welcome. See `CONTRIBUTING.md` for guidelines.
 
 > A mathematically rigorous course on the **Limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS)** algorithm, covering theoretical foundations, convergence properties, numerical stability, and large-scale implementations.
 
