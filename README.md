@@ -1,4 +1,4 @@
-# https://stepik.org/a/272346
+# Stepik: https://stepik.org/a/272346
 
 # Limited-Memory BFGS (L-BFGS) solver — A Research-Oriented Course
 
