@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: Senatorov
+    given-names: Ruslan
+    email: t.me/RuslanSenatorov or youtube.com/SENATOROV
+title: "L-BFGS: Theory, Convergence, and Implementation"
+version: "0.1.0"
+date-released: "2026-03-xx"
