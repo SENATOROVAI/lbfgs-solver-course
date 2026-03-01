@@ -35,7 +35,7 @@ abstract: >
   convergence analysis, and numerical experiments.
 
 preferred-citation:
-  type: software
+  type: report
   doi: "10.5281/zenodo.18818738"
   title: "L-BFGS Solver Course"
   authors:
