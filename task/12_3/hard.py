@@ -1,4 +1,5 @@
 import numpy as np
+from typing import List
 
 
 def project(x: np.ndarray, lower: np.ndarray, upper: np.ndarray) -> np.ndarray:
@@ -46,12 +47,13 @@ def free_variable_mask(
 
 def two_loop_recursion(
     g: np.ndarray,
-    s_list: list[np.ndarray],
-    y_list: list[np.ndarray]
+    s_list: List[np.ndarray],
+    y_list: List[np.ndarray]
 ) -> np.ndarray:
     q = g.copy()
     alphas = []
     rhos = []
+
     for s, y in zip(reversed(s_list), reversed(y_list)):
         ys = np.dot(y, s)
         if ys <= 1e-12:
@@ -72,6 +74,7 @@ def two_loop_recursion(
 
     r = gamma * q
     used_pairs = [(s, y) for s, y in zip(s_list, y_list) if np.dot(y, s) > 1e-12]
+
     for (s, y), alpha, rho in zip(used_pairs, reversed(alphas), reversed(rhos)):
         beta = rho * np.dot(y, r)
         r = r + s * (alpha - beta)
@@ -150,13 +153,13 @@ def lbfgsb(f, grad_f, x0, lower, upper, m=10, tol=1e-6, max_iter=200):
     return x, f(x), history
 
 
-def main() -> None:
+def main():
     x1, x2 = map(float, input().split())
 
-    def f(x: np.ndarray) -> float:
+    def f(x):
         return (x[0] - 3.0) ** 2 + (x[1] - 0.5) ** 2
 
-    def grad_f(x: np.ndarray) -> np.ndarray:
+    def grad_f(x):
         return np.array([
             2.0 * (x[0] - 3.0),
             2.0 * (x[1] - 0.5)
@@ -172,7 +175,7 @@ def main() -> None:
         tol=1e-8,
         max_iter=100
     )
-    print(f"{x_star[0]:.6f} {x_star[1]:.6f} {f_star:.6f} {len(history) - 1}")
+    print("{:.6f} {:.6f} {:.6f} {}".format(x_star[0], x_star[1], f_star, len(history) - 1))
 
 
 if __name__ == '__main__':
