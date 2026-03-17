@@ -1,4 +1,4 @@
-# Stepik: https://stepik.org/a/272346
+### https://SenatorovAI.com/
 
 # Limited-Memory BFGS (L-BFGS) solver — A Research-Oriented Course
 
